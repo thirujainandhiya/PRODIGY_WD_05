@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather APP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Weather App</h1>
+    <div id="searchspace">
+    <input placeholder="Enter place to search" type="text" id="placeName">
+    <button id="search" onclick="showWeather()"><img src="img/search.png" alt="search"></button>
+  </div>
+  <div id="error">
+    <p>Please refresh & Enter correct place</p>
+  </div>
+    <div id="showW">
+      <h1 id="cityName">
+      </h1>
+      <h2 id="temp"></h2>
+      <h2 id="hum"></h2>
+      <h2 id="feels"></h2>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
